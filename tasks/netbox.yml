@@ -1,0 +1,7 @@
+---
+- name: Build Netbox VM
+  import_role: 
+    name: bsio.iac.roles.hyper_v
+    tasks_from: provision_vm_from_template.yml
+  vars: 
+    vm_name: "bsio-netbox-01"

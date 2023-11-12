@@ -1,0 +1,3 @@
+---
+# defaults file for provision_staging_servers
+vm_template_path: 'C:\ProgramData\Microsoft\Windows\Virtual Machine Templates\'
